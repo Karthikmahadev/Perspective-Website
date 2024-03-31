@@ -7,7 +7,7 @@ const Moviediv = () => {
 
       <div class="artistic flex mt-72 justify-center bg-gray-100">
       <div class="artistic1 flex-initial mt-10 flex flex-col items-center">
-          <img className='artistic1img w-5/6 h-3/4 mt-16 ml-16' src='https://images.unsplash.com/photo-1626243048879-51f8d9818566?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
+          <img className='artistic1img w-5/6 h-3/4 mt-16 ml-16' alt="something"  src='https://images.unsplash.com/photo-1626243048879-51f8d9818566?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
           <h1 className="firstdiv text-left text-2xl">&#x2022; Artistic Anthology</h1>
           <p className='firstdivtext text-base'>Contemporary, Traditional, Abstract</p>
       </div>

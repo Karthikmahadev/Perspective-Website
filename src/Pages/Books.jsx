@@ -97,7 +97,7 @@ const Books = () => {
       <Navbar2 />
 
       <div className="flex justify-between">
-        <h1 className=" mt-32"></h1>
+        <h1 className=" hii mt-32">.</h1>
       </div>
 
       <div class="flex flex-row">
@@ -153,6 +153,7 @@ const Books = () => {
                     src={product.imageSrc}
                     alt={product.imageAlt}
                     className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                  
                   />
                 </div>
                 <div className="mt-4 flex justify-between">

@@ -11,10 +11,6 @@ import Footer from "../Components/Footer";
 
 
   
-const itemVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0 },
-};
 
 const products = [
   {
@@ -103,10 +99,7 @@ const Songs = () => {
   useEffect(() => {
     AOS.init();
   }, []);
-  const [isVisible, setIsVisible] = useState(false);
-  const [isHovered, setHovered] = useState(false);
-  const { x, y } = useMousePosition();
-  const size = isHovered ? 400 : 40;
+
 
   return (
     <>

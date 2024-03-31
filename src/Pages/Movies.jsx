@@ -97,7 +97,7 @@ const Movies = () => {
 
     <Navbar2 />
       <div className="flex justify-center ">
-        <h1 className="text-center mt-28"></h1>
+        <h1 className=" hii text-center mt-28">.</h1>
       </div>
 
  
@@ -154,7 +154,7 @@ const Movies = () => {
       <div id="main">
         <img
           src="https://i.pinimg.com/564x/d6/6e/d0/d66ed0c6d290393a22c1ee424ea8ce83.jpg"
-          alt=""
+          alt="something"
         />
         {/* <h1 id="text">We are content creation tema and we are going to make some cool stuff for your </h1> */}
 
