@@ -97,7 +97,9 @@ const Books = () => {
       <Navbar2 />
 
       <div className="flex justify-between">
-        <h1 className=" hii mt-32">.</h1>
+        <div className=" hii mt-32  basis-9/12 ml-20 text-6xl">
+          <br></br>
+        </div>
       </div>
 
       <div class="flex flex-row">

@@ -9,7 +9,9 @@
 }
 
 .hii{
-    display: none;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: 'Playfair Display', serif;
   }
 
 html,body{

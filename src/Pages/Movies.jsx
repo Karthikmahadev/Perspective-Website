@@ -97,12 +97,12 @@ const Movies = () => {
 
     <Navbar2 />
       <div className="flex justify-center ">
-        <h1 className=" hii text-center mt-28">.</h1>
+        <h1 className="hii text-center mt-28">Movies</h1>
       </div>
 
  
 
-      <div>
+      <div  className="  mt-28">
         <Carousel />
       </div>
 
