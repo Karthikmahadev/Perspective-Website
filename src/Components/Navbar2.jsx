@@ -1,8 +1,9 @@
-import { useState , useEffect  } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import '../Styles/Navbar.css'
-import { motion } from "framer-motion";
+import { useState, useEffect } from 'react';
+import { Dialog } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import '../Styles/Navbar.css';
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Movies', href: '/movies' },
@@ -38,7 +39,7 @@ export default function Navbar2() {
       <header className={`absolute inset-x-0 top-0 z-${scrolled ? '50' : 'auto'}`}>
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="/" className="-m-1.5 p-1.5">
+          <Link to="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Perspective</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="6em" height="4em" viewBox="0 0 256 256">
             <defs>
@@ -68,7 +69,7 @@ export default function Navbar2() {
             <path fill="#dc4b1e" d="m0 120.248l68.349 67.039l3.236-1.761l20.773-18.078l-.789-3.235L68.131 67.84L25.549 25.331z" />
             <path fill="#aabe55" d="m68.349 187.287l59.76-59.396l36.395 36.249z" />
           </svg>
-            </a>
+          </Link>
           </div>
           <div className="flex lg:hidden">
             <button
@@ -82,9 +83,9 @@ export default function Navbar2() {
           </div>
           <div className="navlinks hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-lg font-normal leading-6 text-gray-900">
-                {item.name}
-              </a>
+              <Link key={item.name} to={item.href} className="text-lg font-normal leading-6 text-gray-900">
+              {item.name}
+            </Link>
             ))}
           </div>
           <div className=" navlinks hidden lg:flex lg:flex-1 lg:justify-end">
@@ -97,7 +98,7 @@ export default function Navbar2() {
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <a href="/" className="-m-1.5 p-1.5">
+            <Link to="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Perspective</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="6em" height="4em" viewBox="0 0 256 256">
             <defs>
@@ -127,7 +128,7 @@ export default function Navbar2() {
             <path fill="#dc4b1e" d="m0 120.248l68.349 67.039l3.236-1.761l20.773-18.078l-.789-3.235L68.131 67.84L25.549 25.331z" />
             <path fill="#aabe55" d="m68.349 187.287l59.76-59.396l36.395 36.249z" />
           </svg>
-              </a>
+          </Link>
               <button
                 type="button"
                 className="-m-2.5 rounded-md p-2.5 text-gray-700"
