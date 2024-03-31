@@ -1,0 +1,559 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bib1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 3.8rem;
+}
+
+
+
+  
+    .contained {
+      height: 88vh;
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  
+    .child5 {
+      background-color: #fff;
+    }
+  
+    .child6 {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image:  url("https://images.unsplash.com/photo-1544716278-e513176f20b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+    }
+  
+    .centeree {
+      font-family: 'Playfair Display', serif;
+      font-weight:700;
+      color: #000000;
+      text-align: center;
+      font-size: 3.8rem;
+      position: absolute;
+      top: 50%;
+      left: 10.3%;
+    }
+  
+    .centereddd {
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400;
+      text-align: left;
+      font-size: 1.4rem;
+      position: absolute;
+      top: 70%;
+      left: 10.4%;
+    }
+  
+    .centereddedd {
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400;
+      text-align: left;
+      font-size: 1.12rem;
+      position: absolute;
+      top: 80%;
+      left: 10.2%;
+      width: 25rem;
+    }
+
+    .new-contained {
+        height: 88vh;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .new-child6 {
+        background-color: #fff;
+    }
+    
+    .new-child5 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    }
+    
+    .new-centeree {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        color: #000000;
+        text-align: center;
+        font-size: 3.8rem;
+        position: absolute;
+        top: 140%;
+        left: 57.3%;
+    }
+    
+    .famous{
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    .new-centereddd {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        text-align: right;
+        font-size: 1.4rem;
+        position: absolute;
+        top: 162%;
+        left: 64.7%;
+        transform: translateX(-50%);
+    }
+    
+    .new-centereddedd {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        text-align: right;
+        font-size: 1.12rem;
+        position: absolute;
+        top: 175%;
+        left: 68%;
+        transform: translateX(-50%);
+        width: 25rem;
+    }
+
+
+    /*Travel page*/
+.Explore{
+  font-size: 3.2rem;
+}
+#page1{
+  min-height: 100vh;
+  /* background-color: red; */
+  position: relative;
+  width: 100%;
+  padding-top: 19vh;
+
+
+}
+
+#page1 h1{
+  font-family: "Trirong", serif;
+  font-size:15.2vw;
+  text-transform: uppercase;
+  line-height: 13vw;
+  font-weight: bolder;
+  letter-spacing: -8px
+}
+
+#video-container{
+  height:100vh;
+  width: 100%;
+
+  background-color: grey;
+  margin-top: 1vw;
+
+}
+#video-container video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover
+
+}
+
+
+.textpara2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftsidetext2 {
+  width: 70%; /* Adjust as needed */
+  margin-left:4%;
+}
+.h1text2{
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.textdiv2{
+ font-family: "Raleway", sans-serif;
+ font-size: 1.6rem;
+ font-weight: 500;
+}
+.roughttextt2{
+  display: block;
+}
+.roughttextt24{
+  display: block;
+}
+
+.rightsidetext2 {
+  width: 15%; /* Adjust as needed */
+  margin-right: 5%;
+ 
+}
+.line{
+  width: 89.5%;
+  border-color: #9f9898;
+  color: black;
+  border-width: 1px
+}
+.centertext{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.centpara{
+  font-family: "Raleway", sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  width: 90%
+}
+
+
+
+
+
+
+
+
+
+/*Making it responsive : 
+
+
+
+
+
+*/
+
+
+@media only screen and (max-width: 480px) {
+  #page1 {
+    padding-top: 8vh;
+ 
+    /* Adjust padding top for smaller screens */
+  }
+
+  #page1 h1 {
+    font-size: 16vw; /* Adjust font size for smaller screens */
+    line-height: 16vw; /* Adjust line height for smaller screens */
+    letter-spacing: -4px; /* Adjust letter spacing for smaller screens */
+  
+  }
+  #video-container{
+    height: 70vh;
+  }
+  #video-container video {
+    height: 70vh; /* Adjust the height of the video */
+    width: auto; /* Allow the width to adjust automatically */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+  }
+  .textdiv2{
+    font-size: 1.2rem;
+    margin-top: 5%;
+  }
+  .h1text2{
+    font-size: 1.2rem;
+   
+  }
+  .line{
+    width: 90%;
+    margin-left: 5%
+  }
+  .centpara{
+    font-size: 1.3rem;
+  }
+  .roughttextt24{
+   margin-left: 1%;
+   
+  }
+  .rightsidetext2{
+    margin-top: 5%;
+  }
+  .product-name{
+font-size: 1.35rem;
+  }
+  .product-color{
+    font-size: 1.2rem;
+  }
+
+
+
+  /*Books Page*/
+/* 
+  .contained{
+    height: 50vh;
+    width: 50vh;
+  }
+  .bib1{
+    font-size: 2.5rem; 
+    margin-left: 5%
+  }
+  .child5{
+    height: 50vh;
+    
+  }
+
+  .child6{
+
+  }
+  .centeree{
+    font-size: 2.5rem; 
+    top: 28%;
+    left: 5.2%;
+  }
+  .centereddd{
+    font-size: 1.3rem; 
+    top: 37%;
+    width: 44%;
+    left: 5.2%;
+  }
+  .centereddedd{
+    font-size: 1rem;
+    top: 46%;
+    width: 44%;
+    left: 5.2%;
+  }
+  .new-contained{
+    height: 50vh;
+    width: 50vh;
+  }
+
+  .new-centeree{
+    font-size: 2.5rem; 
+    top: 84%;
+    left: 66.2%;
+  }
+  .new-centereddd{
+    font-size: 1.3rem; 
+    top: 94%;
+    text-align: left;
+    width: 44%;
+    left: 90.2%;
+  }
+  .new-centereddedd{
+    font-size: 1rem;
+    top: 103%;
+    text-align: left;
+    width: 42%;
+    left: 89.2%;
+  }
+  .famous{
+    font-size: 1.5rem;
+  } */
+
+  .bib1{
+    font-size: 2.5rem; 
+    margin-left: 5%;
+  }
+  .child6 {
+    height: 50vh; /* Set height to 50% of the viewport height */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1544716278-e513176f20b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+  }
+
+  /* Adjust styles for centered text */
+  .centeree {
+    font-size: 2rem; /* Decrease font size */
+    top: 33%; /* Adjust vertical position */
+    left: 9%;
+  }
+
+  .centereddd{
+    font-size: 1rem; /* Decrease font size */
+    top: 42%;
+    width: 40%;
+    left: 9%;
+  }
+  .centereddedd {
+    font-size: 1rem; /* Decrease font size */
+    top: 51%; /* Adjust vertical position */
+    width:37%;
+    left: 9%;
+  }
+
+  /* Reduce the size of background image to 50% height in div child5 */
+  .child5 {
+    height: 50vh; /* Set height to 50% of the viewport height */
+    background-color: #fff; /* Add background color */
+  }
+
+  /* Adjust styles for new-contained and new-child6 */
+    /* Adjust styles for new-child6 */
+    .new-child6 {
+      height: 50vh; /* Set height to 50% of the viewport height */
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    }
+  
+    /* Adjust styles for new-contained and new-child6 */
+    .new-contained {
+      height: auto; /* Set height to auto */
+      display: block; /* Change display to block */
+      margin-top: 2rem; /* Add margin top */
+    }
+  
+    .new-centeree {
+      font-size: 2rem; /* Decrease font size */
+      top: 79%; /* Adjust vertical position */
+      left: 39%;
+    }
+  
+    .new-centereddd{
+      font-size: 1rem; /* Decrease font size */
+      top:87%;
+      left:49%;
+      width: 40%;
+    }
+    .new-centereddedd {
+      font-size: 1rem; /* Decrease font size */
+      top: 94%; /* Adjust vertical position */
+      left:55%;
+      width:82%;
+      text-align: left ;
+    }
+  
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+/*Books : */
+
+.centeree{
+
+top:40%;
+}
+
+.centereddd{
+ 
+font-size: 2.7rem;
+width: 30%;
+top: 50%;
+
+
+}
+
+.centereddedd{
+  font-size: 2rem;
+  top: 67%;
+  width: 40%;
+}
+
+.new-centeree{
+  top:130%;
+
+}
+
+.new-centereddd{
+  top:141%;
+  text-align: left;
+  left: 78%;
+  width: 40%;
+  font-size: 2.7rem;
+}
+
+.new-centereddedd{
+  width: 30%;
+  font-size: 2rem;
+  left: 73%;
+  text-align: left;
+  top: 154%;
+}
+
+
+
+
+
+
+  /*Travel Page : */
+  .roughttextt2{
+    font-size: 2rem;
+  }
+  .h1text2{
+    font-size: 2rem;
+  }
+  .roughttextt24{
+    margin-left: 0%;
+    font-size: 2rem;
+  }
+  .kbvbv{
+    font-size: 2.9rem;
+    display: flex;
+   
+  }
+.imagesibv{
+  width: 300px;
+  height: 400px;
+}
+  .product-color{
+
+font-size: 1.3rem;
+  }
+  .product-name{
+    font-size: 1.6rem;
+  }
+  .product-price{
+    font-size: 1.4rem
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Alex+Brush&family=Cinzel:wght@400..900&family=Coustard:wght@400;900&family=Kalam:wght@300;400;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Tajawal:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+ 
